@@ -1,0 +1,10 @@
+<ul>
+    <% olderDinoData.forEach((oldDino, oldIndex) => { %>
+        <li>
+            <%= oldDino.type %> <br><img src = "<%= oldDino.img_url %>">
+            <form action="/prehistoric_creatures/<%= oldIndex %>/?_method=DELETE" method="POST">
+                <input type="submit" value="Delete">
+            </form>
+        </li>
+    <% }); %>
+</ul>
