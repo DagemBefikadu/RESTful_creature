@@ -75,3 +75,7 @@ In the root of the views folder, add a layout called layout.ejs. It must be call
   This layout will be used by all pages, and the content will be filled in where the <%- body %> tag is placed. <%- body %> is a special tag used by express-ejs-layouts that cannot be renamed.
 </body>
 </html>
+
+LIVE LINK
+
+https://dagembefikadu.github.io/RESTful_creature/
